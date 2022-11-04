@@ -15,8 +15,8 @@ body {
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
   height: 90vh;
-  color: #333;
-  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(to top right, #000000 30%, #29584e 70%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,12 +59,12 @@ main {
 .score {
   font-size: 8rem;
   font-weight: 300;
-  color: #c7365f;
+  color: #ffffff;
   margin-bottom: auto;
 }
 
 .player--active {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgb(46, 100, 75);
 }
 
 .player--active .name {
@@ -80,9 +80,9 @@ main {
 }
 
 .current {
-  background-color: #c7365f;
+  background-color: #000000;
   opacity: 0.8;
-  border-radius: 9px;
+  border-radius: 20px;
   color: #fff;
   width: 65%;
   padding: 2rem;
